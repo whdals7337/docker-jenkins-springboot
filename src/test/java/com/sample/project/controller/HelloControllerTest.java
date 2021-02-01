@@ -35,7 +35,7 @@ class HelloControllerTest {
         // when
         mockMvc.perform(get(url))
                 .andExpect(status().isOk())
-                .andExpect(content().string("hello"));
+                .andExpect(content().string("helloo"));
         // then
     }
 }
